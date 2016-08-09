@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">blogradio</string>
+    <string name="textview.text.Phát_Thanh_Xúc_Cảm_Của_Bạn">Phát Thanh Xúc Cảm Của Bạn</string>
+    <string name="textview.text.Blog_Radio">Blog Radio</string>
+    <string name="textview.text.tam_su">Có người bỏ mặc tuổi thanh xuân đếm ngược của mình, chỉ sống và tận hưởng như một đứa con nít chưa hiểu chuyện, suy nghĩ nông nổi, và ham chơi.  Có những người sống nhưng vô định, để thanh xuân chỉ như một giấc mơ không rõ ràng, tỉnh giấc là hết.  Có người đem thanh xuân ấy vào những cuộc chơi thâu đêm suốt sáng.  Thời gian thì vẫn trôi tuột đi không chờ ai cả thế mà có người lỡ dở tuổi trẻ, mất mãi một cái gì đó, không rõ có lấy lại được không.  Thanh xuân vốn là mùa của những tuổi trẻ tươi thắm nở rộ. Nhưng liệu còn đâu, với những người có tuổi thanh xuân, không biết nắm bắt, để nó sớm qua, với một cuộc đời, với một trái tim sau cùng vì thế mà tàn tạ, héo úa…</string>
 </resources>
