@@ -1,40 +1,41 @@
-package oliverdev.com.blogradio;
+package oliverdev.com.blogradio.activities;
 
 import android.graphics.Typeface;
-import android.support.v7.app.AppCompatActivity;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.EActivity;
 import org.androidannotations.annotations.UiThread;
 import org.androidannotations.annotations.ViewById;
 
+import oliverdev.com.blogradio.R;
+import oliverdev.com.blogradio.abstracts.BaseActivity;
+
 @EActivity(R.layout.splash_screen_activity)
-public class SplashScreenMainActivity extends AppCompatActivity {
+public class SplashScreenMainActivity extends BaseActivity {
     private static final long DELAY_TIME = 10000L;
 
-    @ViewById(R.id.progressbar_slash_screen)
+    @ViewById(R.id.progressBarSplashScreen)
     ProgressBar mProgressBar;
 
-    @ViewById(R.id.textView_title_blog_radio)
+    @ViewById(R.id.tvBlogRadioTitle)
     TextView mTextViewBlogRadio;
 
-    @ViewById(R.id.textView_title_phat_thanh_xuc_cam_cua_ban)
-    TextView mTextViewPhatThanhXucCamCuaBan;
+    @ViewById(R.id.tvShowYourFeelsTitle)
+    TextView mTextViewShowYourFeelsTitle;
 
-    @ViewById(R.id.textView_tam_su)
-    TextView mTextViewTamSu;
+    @ViewById(R.id.tvConfessionTitle)
+    TextView mTextViewConfessTitle;
 
     Typeface mTypeface;
 
-    @AfterViews
-    void initViews() {
+    @Override
+    protected void initViews() {
         doInBackground();
 
-        mTextViewBlogRadio.setTypeface(getFont("VietAPK.vn-RixLoveFool.ttf"));
-        mTextViewPhatThanhXucCamCuaBan.setTypeface(getFont("VNF-FuturaRegular.ttf"));
-        mTextViewTamSu.setTypeface(getFont("VietAPK.vn-Alba.ttf"));
+        mTextViewBlogRadio.setTypeface(getFont(getString(R.string.textViewBolgRadio_font)));
+        mTextViewShowYourFeelsTitle.setTypeface(getFont(getString(R.string.textViewShowYourFeels_font)));
+        mTextViewConfessTitle.setTypeface(getFont(getString(R.string.textViewConfession_font)));
     }
 
     /**
@@ -51,4 +52,6 @@ public class SplashScreenMainActivity extends AppCompatActivity {
         MainActivity_.intent(this).start();
         finish();
     }
+
+
 }
