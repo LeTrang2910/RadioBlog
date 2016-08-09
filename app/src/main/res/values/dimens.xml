@@ -2,4 +2,22 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+    //Splash Screen activity
+    //progressBar
+    <dimen name="progressBar_top_margin">20dp</dimen>
+    //textviewBlogRadioTitle
+    <dimen name="textviewBlogRadioTitle_top_margin">20dp</dimen>
+    <dimen name="textviewBlogRadioTitle_padding">10dp</dimen>
+    <dimen name="textviewBlogRadioTitle_textSize">30sp</dimen>
+    //textviewShowYourFeels
+    <dimen name="textviewShowYourFeels_top_margin">8dp</dimen>
+    <dimen name="textviewShowYourFeels_padding_top">2dp</dimen>
+    <dimen name="textviewShowYourFeels_padding_left">10dp</dimen>
+    <dimen name="textviewShowYourFeels_padding_bottom">5dp</dimen>
+    <dimen name="textviewShowYourFeels_textSize">20sp</dimen>
+    //textViewConffessionTitle
+    <dimen name="textviewConfession_top_margin">10dp</dimen>
+    <dimen name="textviewConfession_padding">10dp</dimen>
+    <dimen name="textviewConfession_textSize">16dp</dimen>
+
 </resources>
