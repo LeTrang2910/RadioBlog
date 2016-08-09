@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_splash_screen"
+    tools:context="oliverdev.com.blogradio.SplashScreenMainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#66ffffff">
+
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/textView_title_blog_radio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:text="@string/textview.text.Blog_Radio"
+            android:textSize="30sp" />
+
+        <TextView
+            android:textStyle="italic"
+            android:id="@+id/textView_title_phat_thanh_xuc_cam_cua_ban"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:padding="10dp"
+            android:text="@string/textview.text.Phát_Thanh_Xúc_Cảm_Của_Bạn"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView_tam_su"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="110dp"
+            android:padding="10dp"
+            android:text="@string/textview.text.tam_su"
+            android:textSize="16sp" />
+    </FrameLayout>
+
+    <ProgressBar
+        android:id="@+id/progressbar_slash_screen"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"
+        android:indeterminateDrawable="@drawable/splash_screen_loader" />
+
+</RelativeLayout>
