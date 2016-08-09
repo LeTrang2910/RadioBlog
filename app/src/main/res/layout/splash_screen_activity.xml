@@ -3,50 +3,52 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg_splash_screen"
-    tools:context="oliverdev.com.blogradio.SplashScreenMainActivity">
+    tools:context="oliverdev.com.blogradio.activities.SplashScreenMainActivity">
 
-    <FrameLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#66ffffff">
+        android:background="@color/linearLayout_splash_screen_background"
+        android:orientation="vertical">
 
         <TextView
-            android:textStyle="bold"
-            android:id="@+id/textView_title_blog_radio"
+            android:id="@+id/tvBlogRadioTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:padding="10dp"
+            android:layout_marginTop="@dimen/textviewBlogRadioTitle_top_margin"
+            android:padding="@dimen/textviewBlogRadioTitle_padding"
             android:text="@string/textview.text.Blog_Radio"
-            android:textSize="30sp" />
+            android:textSize="@dimen/textviewBlogRadioTitle_textSize"
+            android:textStyle="bold" />
 
         <TextView
-            android:textStyle="italic"
-            android:id="@+id/textView_title_phat_thanh_xuc_cam_cua_ban"
+            android:id="@+id/tvShowYourFeelsTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="70dp"
-            android:padding="10dp"
-            android:text="@string/textview.text.Phát_Thanh_Xúc_Cảm_Của_Bạn"
-            android:textSize="20sp" />
+            android:layout_marginTop="@dimen/textviewShowYourFeels_top_margin"
+            android:paddingBottom="@dimen/textviewShowYourFeels_padding_bottom"
+            android:paddingLeft="@dimen/textviewShowYourFeels_padding_left"
+            android:paddingTop="@dimen/textviewShowYourFeels_padding_top"
+            android:text="@string/textview.text.show_your_feels"
+            android:textSize="@dimen/textviewShowYourFeels_textSize"
+            android:textStyle="italic" />
 
         <TextView
-            android:id="@+id/textView_tam_su"
+            android:id="@+id/tvConfessionTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="110dp"
-            android:padding="10dp"
-            android:text="@string/textview.text.tam_su"
-            android:textSize="16sp" />
-    </FrameLayout>
+            android:layout_marginTop="@dimen/textviewConfession_top_margin"
+            android:padding="@dimen/textviewConfession_padding"
+            android:text="@string/textview.text.confession"
+            android:textSize="@dimen/textviewConfession_textSize" />
 
-    <ProgressBar
-        android:id="@+id/progressbar_slash_screen"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="80dp"
-        android:indeterminateDrawable="@drawable/splash_screen_loader" />
+        <ProgressBar
+            android:id="@+id/progressBarSplashScreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:layout_marginTop="@dimen/progressBar_top_margin"
+            android:indeterminateDrawable="@drawable/splash_screen_loader" />
 
+    </LinearLayout>
 </RelativeLayout>
