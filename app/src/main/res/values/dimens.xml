@@ -18,6 +18,6 @@
     //textViewConffessionTitle
     <dimen name="textviewConfession_top_margin">10dp</dimen>
     <dimen name="textviewConfession_padding">10dp</dimen>
-    <dimen name="textviewConfession_textSize">16dp</dimen>
+    <dimen name="textviewConfession_textSize">16sp</dimen>
 
 </resources>
