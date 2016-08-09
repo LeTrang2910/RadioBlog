@@ -3,4 +3,8 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="progressBar_centerColor">#d63939</color>
+    <color name="progressBar_endColor">#A9D0F5</color>
+    <color name="progressBar_startColor">#f01111</color>
+    <color name="linearLayout_splash_screen_background">#66ffffff</color>
 </resources>
