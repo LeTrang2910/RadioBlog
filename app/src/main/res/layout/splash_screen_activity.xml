@@ -15,39 +15,39 @@
             android:id="@+id/tvBlogRadioTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/textviewBlogRadioTitle_top_margin"
-            android:padding="@dimen/textviewBlogRadioTitle_padding"
-            android:text="@string/textview.text.Blog_Radio"
-            android:textSize="@dimen/textviewBlogRadioTitle_textSize"
+            android:layout_marginTop="@dimen/textview_blog_radio_title_top_margin"
+            android:padding="@dimen/textview_blog_radio_title_padding"
+            android:text="@string/textview.text.blog_radio"
+            android:textSize="@dimen/textview_blog_radio_title_textsize"
             android:textStyle="bold" />
 
         <TextView
             android:id="@+id/tvShowYourFeelsTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/textviewShowYourFeels_top_margin"
-            android:paddingBottom="@dimen/textviewShowYourFeels_padding_bottom"
-            android:paddingLeft="@dimen/textviewShowYourFeels_padding_left"
-            android:paddingTop="@dimen/textviewShowYourFeels_padding_top"
+            android:layout_marginTop="@dimen/textview_show_your_feels_top_margin"
+            android:paddingBottom="@dimen/textview_show_your_feels_padding_bottom"
+            android:paddingLeft="@dimen/textview_show_your_feels_padding_left"
+            android:paddingTop="@dimen/textview_show_your_feels_padding_top"
             android:text="@string/textview.text.show_your_feels"
-            android:textSize="@dimen/textviewShowYourFeels_textSize"
+            android:textSize="@dimen/textview_show_your_feels_textsize"
             android:textStyle="italic" />
 
         <TextView
             android:id="@+id/tvConfessionTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/textviewConfession_top_margin"
-            android:padding="@dimen/textviewConfession_padding"
+            android:layout_marginTop="@dimen/textview_confession_top_margin"
+            android:padding="@dimen/textview_confession_padding"
             android:text="@string/textview.text.confession"
-            android:textSize="@dimen/textviewConfession_textSize" />
+            android:textSize="@dimen/textview_confession_textsize" />
 
         <ProgressBar
             android:id="@+id/progressBarSplashScreen"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center|bottom"
-            android:layout_marginTop="@dimen/progressBar_top_margin"
+            android:layout_marginTop="@dimen/progressbar_top_margin"
             android:indeterminateDrawable="@drawable/splash_screen_loader" />
 
     </LinearLayout>
