@@ -49,6 +49,5 @@
             android:layout_gravity="center|bottom"
             android:layout_marginTop="@dimen/progressbar.top.margin"
             android:indeterminateDrawable="@drawable/splash_screen_loader" />
-
     </LinearLayout>
 </RelativeLayout>
