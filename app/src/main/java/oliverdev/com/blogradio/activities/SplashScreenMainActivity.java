@@ -10,25 +10,26 @@ import org.androidannotations.annotations.ViewById;
 
 import oliverdev.com.blogradio.R;
 
+
 @EActivity(R.layout.splash_screen_activity)
 public class SplashScreenMainActivity extends BaseActivity {
     private static final long DELAY_TIME = 10000L;
     @ViewById(R.id.progressBarSplashScreen)
     ProgressBar mProgressBar;
     @ViewById(R.id.tvBlogRadioTitle)
-    TextView mTextViewBlogRadio;
+    TextView mTvBlogRadio;
     @ViewById(R.id.tvShowYourFeelsTitle)
-    TextView mTextViewShowYourFeelsTitle;
+    TextView mTvShowYourFeelsTitle;
     @ViewById(R.id.tvConfessionTitle)
-    TextView mTextViewConfessTitle;
+    TextView mTvConfessTitle;
 
     @Override
     protected void initViews() {
         doInBackground();
 
-        mTextViewBlogRadio.setTypeface(getFont(getString(R.string.textView_blog_radio_font)));
-        mTextViewShowYourFeelsTitle.setTypeface(getFont(getString(R.string.textView_show_your_feels_font)));
-        mTextViewConfessTitle.setTypeface(getFont(getString(R.string.textView_confession_font)));
+        mTvBlogRadio.setTypeface(getFont(getString(R.string.textview_blog_radio_font)));
+        mTvShowYourFeelsTitle.setTypeface(getFont(getString(R.string.textview_show_your_feels_font)));
+        mTvConfessTitle.setTypeface(getFont(getString(R.string.textview_confession_font)));
     }
 
     /**
