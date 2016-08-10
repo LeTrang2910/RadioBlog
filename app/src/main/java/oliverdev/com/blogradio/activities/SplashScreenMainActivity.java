@@ -26,9 +26,9 @@ public class SplashScreenMainActivity extends BaseActivity {
     protected void initViews() {
         doInBackground();
 
-        mTextViewBlogRadio.setTypeface(getFont(getString(R.string.textViewBolgRadio_font)));
-        mTextViewShowYourFeelsTitle.setTypeface(getFont(getString(R.string.textViewShowYourFeels_font)));
-        mTextViewConfessTitle.setTypeface(getFont(getString(R.string.textViewConfession_font)));
+        mTextViewBlogRadio.setTypeface(getFont(getString(R.string.textView_blog_radio_font)));
+        mTextViewShowYourFeelsTitle.setTypeface(getFont(getString(R.string.textView_show_your_feels_font)));
+        mTextViewConfessTitle.setTypeface(getFont(getString(R.string.textView_confession_font)));
     }
 
     /**
