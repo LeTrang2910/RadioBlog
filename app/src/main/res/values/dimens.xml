@@ -4,20 +4,20 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     //Splash Screen activity
     //progressBar
-    <dimen name="progressbar_top_margin">20dp</dimen>
+    <dimen name="progressbar.top.margin">20dp</dimen>
     //textviewBlogRadioTitle
-    <dimen name="textview_blog_radio_title_top_margin">20dp</dimen>
-    <dimen name="textview_blog_radio_title_padding">10dp</dimen>
-    <dimen name="textview_blog_radio_title_textsize">30sp</dimen>
+    <dimen name="textview.top.margin.blog_radio_title">20dp</dimen>
+    <dimen name="textview.padding.blog_radio_title">10dp</dimen>
+    <dimen name="textview.textsize.blog_radio_title">30sp</dimen>
     //textviewShowYourFeels
-    <dimen name="textview_show_your_feels_top_margin">8dp</dimen>
-    <dimen name="textview_show_your_feels_padding_top">2dp</dimen>
-    <dimen name="textview_show_your_feels_padding_left">10dp</dimen>
-    <dimen name="textview_show_your_feels_padding_bottom">5dp</dimen>
-    <dimen name="textview_show_your_feels_textsize">20sp</dimen>
+    <dimen name="textview.margin.top.show_your_feels">8dp</dimen>
+    <dimen name="textview.padding.top.show_your_feels">2dp</dimen>
+    <dimen name="textview.padding.left.show_your_feels">10dp</dimen>
+    <dimen name="textview.padding.bottom.show_your_feels">5dp</dimen>
+    <dimen name="textview.textsize.show_your_feels">20sp</dimen>
     //textViewConffessionTitle
-    <dimen name="textview_confession_top_margin">10dp</dimen>
-    <dimen name="textview_confession_padding">10dp</dimen>
-    <dimen name="textview_confession_textsize">16sp</dimen>
+    <dimen name="textview.margin.top.confession">10dp</dimen>
+    <dimen name="textview.padding.confession">10dp</dimen>
+    <dimen name="textview.textsize.confession">16sp</dimen>
 
 </resources>
