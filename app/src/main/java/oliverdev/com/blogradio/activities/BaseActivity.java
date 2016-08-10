@@ -1,4 +1,4 @@
-package oliverdev.com.blogradio.abstracts;
+package oliverdev.com.blogradio.activities;
 
 import android.support.v7.app.AppCompatActivity;
 
