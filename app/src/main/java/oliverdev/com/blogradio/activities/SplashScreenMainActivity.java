@@ -9,25 +9,18 @@ import org.androidannotations.annotations.UiThread;
 import org.androidannotations.annotations.ViewById;
 
 import oliverdev.com.blogradio.R;
-import oliverdev.com.blogradio.abstracts.BaseActivity;
 
 @EActivity(R.layout.splash_screen_activity)
 public class SplashScreenMainActivity extends BaseActivity {
     private static final long DELAY_TIME = 10000L;
-
     @ViewById(R.id.progressBarSplashScreen)
     ProgressBar mProgressBar;
-
     @ViewById(R.id.tvBlogRadioTitle)
     TextView mTextViewBlogRadio;
-
     @ViewById(R.id.tvShowYourFeelsTitle)
     TextView mTextViewShowYourFeelsTitle;
-
     @ViewById(R.id.tvConfessionTitle)
     TextView mTextViewConfessTitle;
-
-    Typeface mTypeface;
 
     @Override
     protected void initViews() {
@@ -43,8 +36,7 @@ public class SplashScreenMainActivity extends BaseActivity {
      * @return typeFont
      */
     private Typeface getFont(String path) {
-        mTypeface = Typeface.createFromAsset(getAssets(), path);
-        return mTypeface;
+        return Typeface.createFromAsset(getAssets(), path);
     }
 
     @UiThread(delay = DELAY_TIME)
@@ -52,6 +44,5 @@ public class SplashScreenMainActivity extends BaseActivity {
         MainActivity_.intent(this).start();
         finish();
     }
-
 
 }
