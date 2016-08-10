@@ -12,7 +12,7 @@ import oliverdev.com.blogradio.R;
 
 
 @EActivity(R.layout.splash_screen_activity)
-public class SplashScreenMainActivity extends BaseActivity {
+public class SplashScreenActivity extends BaseActivity {
     private static final long DELAY_TIME = 10000L;
     @ViewById(R.id.progressBarSplashScreen)
     ProgressBar mProgressBar;
