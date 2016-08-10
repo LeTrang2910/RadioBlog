@@ -8,10 +8,10 @@
         android:thicknessRatio="10.0"
         android:useLevel="false">
         <gradient
-            android:centerColor="@color/progressbar_center_color"
+            android:centerColor="@color/progressbar.center.color"
             android:centerY="0.5"
-            android:endColor="@color/progressbar_end_color"
-            android:startColor="@color/progressbar_start_color"
+            android:endColor="@color/progressbar.end.color"
+            android:startColor="@color/progressbar.start.color"
             android:type="sweep"
             android:useLevel="false" />
     </shape>
