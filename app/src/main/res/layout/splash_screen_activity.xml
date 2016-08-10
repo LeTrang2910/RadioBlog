@@ -8,46 +8,46 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/linearLayout_splash_screen_background"
+        android:background="@color/linearLayout.background.splash_screen"
         android:orientation="vertical">
 
         <TextView
             android:id="@+id/tvBlogRadioTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/textview_blog_radio_title_top_margin"
-            android:padding="@dimen/textview_blog_radio_title_padding"
+            android:layout_marginTop="@dimen/textview.top.margin.blog_radio_title"
+            android:padding="@dimen/textview.padding.blog_radio_title"
             android:text="@string/textview.text.blog_radio"
-            android:textSize="@dimen/textview_blog_radio_title_textsize"
+            android:textSize="@dimen/textview.textsize.blog_radio_title"
             android:textStyle="bold" />
 
         <TextView
             android:id="@+id/tvShowYourFeelsTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/textview_show_your_feels_top_margin"
-            android:paddingBottom="@dimen/textview_show_your_feels_padding_bottom"
-            android:paddingLeft="@dimen/textview_show_your_feels_padding_left"
-            android:paddingTop="@dimen/textview_show_your_feels_padding_top"
+            android:layout_marginTop="@dimen/textview.margin.top.show_your_feels"
+            android:paddingBottom="@dimen/textview.padding.bottom.show_your_feels"
+            android:paddingLeft="@dimen/textview.padding.left.show_your_feels"
+            android:paddingTop="@dimen/textview.padding.top.show_your_feels"
             android:text="@string/textview.text.show_your_feels"
-            android:textSize="@dimen/textview_show_your_feels_textsize"
+            android:textSize="@dimen/textview.textsize.show_your_feels"
             android:textStyle="italic" />
 
         <TextView
             android:id="@+id/tvConfessionTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/textview_confession_top_margin"
-            android:padding="@dimen/textview_confession_padding"
+            android:layout_marginTop="@dimen/textview.margin.top.confession"
+            android:padding="@dimen/textview.padding.confession"
             android:text="@string/textview.text.confession"
-            android:textSize="@dimen/textview_confession_textsize" />
+            android:textSize="@dimen/textview.textsize.confession" />
 
         <ProgressBar
             android:id="@+id/progressBarSplashScreen"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center|bottom"
-            android:layout_marginTop="@dimen/progressbar_top_margin"
+            android:layout_marginTop="@dimen/progressbar.top.margin"
             android:indeterminateDrawable="@drawable/splash_screen_loader" />
 
     </LinearLayout>
