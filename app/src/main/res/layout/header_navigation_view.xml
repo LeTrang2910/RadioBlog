@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:fitsSystemWindows="@bool/fitsSystemWindows"
+    android:background="@drawable/bg_header_navigation"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/relativelayout.height.header_navigation_view"
+        android:layout_alignParentBottom="true"
+        android:background="@color/framelayout.background.custom_header_navigation_view">
+        <TextView
+            style="@style/textviewBlogRadioTitleStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/TvBlogRadio"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:text="@string/textview.text.blog_radio_navigation"/>
+        <TextView
+            android:padding="@dimen/textview.padding.top.show_your_feels"
+            android:textStyle="italic"
+            android:textSize="@dimen/textview.textsize.show_your_feels_navigationview"
+            android:textColor="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/textview.padding.left.show_your_feels_navigationview"
+            android:layout_below="@+id/TvBlogRadio"
+            android:gravity="center_vertical|right"
+            android:text="@string/textview.text.show_your_feels"
+
+            />
+    </RelativeLayout>
+</RelativeLayout>

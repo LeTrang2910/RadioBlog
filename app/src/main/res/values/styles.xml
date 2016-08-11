@@ -8,10 +8,25 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+
     <style name="ToolBarTheme.ToolBarStyle" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
         <item name="android:textColorPrimary">@android:color/white</item>
         <item name="android:textColor">@android:color/white</item>
         <item name="android:textColorPrimaryInverse">@android:color/white</item>
     </style>
+    <style name="textviewBlogRadioTitleStyle">
+        <item name="android:padding">@dimen/textview.padding.blog_radio_title_navigation_view</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/textview.textsize.blog_radio_title_navigation_view</item>
+        <item name="android:shadowColor">@color/text.shadow.color.blog_radio_title_navigation</item>
+        <item name="android:shadowDx">-2</item>
+        <item name="android:shadowDy">-2</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+    <style name="navigationViewTextAppearanceStyle">
+        <item name="android:textSize">@dimen/navigationviewitem.textsize</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+
 
 </resources>
