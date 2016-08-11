@@ -15,7 +15,7 @@ import oliverdev.com.blogradio.R;
  */
 @EActivity(R.layout.activity_main)
 public class MainActivity extends BaseActivity {
-    public static String TAG = MainActivity.class.getSimpleName();
+    private static String TAG = MainActivity.class.getSimpleName();
 
     @ViewById(R.id.toolBar)
     Toolbar mToolbar;
