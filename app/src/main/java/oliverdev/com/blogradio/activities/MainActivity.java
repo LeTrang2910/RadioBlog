@@ -10,6 +10,9 @@ import org.androidannotations.annotations.ViewById;
 
 import oliverdev.com.blogradio.R;
 
+/**
+ * @author ConGa
+ */
 @EActivity(R.layout.activity_main)
 public class MainActivity extends BaseActivity {
 
