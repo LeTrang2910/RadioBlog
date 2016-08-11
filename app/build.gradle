@@ -34,6 +34,8 @@ dependencies {
     // annotation
     apt "org.androidannotations:androidannotations:3.2"
     compile "org.androidannotations:androidannotations-api:3.2"
-
+    // lombok
+    provided "org.projectlombok:lombok:1.12.6"
+    apt "org.projectlombok:lombok:1.12.6"
 
 }

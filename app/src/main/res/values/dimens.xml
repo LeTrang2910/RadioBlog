@@ -19,5 +19,14 @@
     <dimen name="textview.margin.top.confession">10dp</dimen>
     <dimen name="textview.padding.confession">10dp</dimen>
     <dimen name="textview.textsize.confession">16sp</dimen>
-
+    <!--navigation view-->
+    <dimen name="textview.textsize.textview_title">20sp</dimen>
+    <dimen name="textview.textsize.textview_counter">18sp</dimen>
+    <dimen name="relativelayout.height.header_navigation_view">60dp</dimen>
+    <dimen name="textview.textsize.show_your_feels_navigationview">14sp</dimen>
+    <dimen name="textview.top.margin.blog_radio_title_navigation_view">10dp</dimen>
+    <dimen name="textview.padding.blog_radio_title_navigation_view">5dp</dimen>
+    <dimen name="textview.textsize.blog_radio_title_navigation_view">17sp</dimen>
+    <dimen name="textview.padding.left.show_your_feels_navigationview">5dp</dimen>
+    <dimen name="navigationviewitem.textsize">14sp</dimen>
 </resources>

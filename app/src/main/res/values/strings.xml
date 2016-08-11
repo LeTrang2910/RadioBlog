@@ -6,4 +6,29 @@
     <string name="textview_blog_radio_font">VietAPK.vn-RixLoveFool.ttf</string>
     <string name="textview_show_your_feels_font">VNF-FuturaRegular.ttf</string>
     <string name="textview_confession_font">VietAPK.vn-Alba.ttf</string>
+    <string name="textview.text.blog_radio_navigation">BLOG RADIO</string>
+    <!--drawer menu-->
+    <string name="menu.title.category">Danh mục</string>
+    <string name="menu.item.title.which_radio_you_will_listen_today">Hôm nay nghe gì?</string>
+    <string name="menu.item.title.blog_radio">Blog Radio</string>
+    <string name="menu.item.title.blog_confession">Blog Tâm Sự</string>
+    <string name="menu.item.title.the_life_blog">Blog Cuộc Sống</string>
+    <string name="menu.item.title.best_stories">Truyện Hay</string>
+    <string name="menu.title.category.my_folders">Của Tôi</string>
+    <string name="menu.item.title.new_radio">Radio Mới</string>
+    <string name="menu.item.title.favorite_radio_blogs">Yêu Thích</string>
+    <string name="menu.item.title.video">Video</string>
+    <string name="menu.item.title.download">Download</string>
+    <string name="menu.title.category.add_on">Mở Rộng</string>
+    <string name="menu.item.title.note">Ghi chú</string>
+    <string name="menu.item.title.offline_radio">Radio Offline</string>
+    <string name="drawerlayout_text_open">Open</string>
+    <string name="drawerlayout_text_close">Close</string>
+    <!--font in navigation view-->
+    <string name="toolbar_font">VietAPK.vn-RixLoveFool.ttf</string>
+    <!--"MONOSCAPE", "waltographUI.ttf"-->
+    <string name="navigationviewitem_font">VietAPK.vn-RixLoveFool.ttf</string>
+    <string name="navigationviewitem_style_font">MONOSCAPE</string>
+
+
 </resources>
