@@ -7,4 +7,6 @@
     <color name="progressbar.end.color">#A9D0F5</color>
     <color name="progressbar.start.color">#f01111</color>
     <color name="linearLayout.background.splash_screen">#66ffffff</color>
+    <color name="textview.color.splash_screen">#434343</color>
+
 </resources>
