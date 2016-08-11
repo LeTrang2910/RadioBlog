@@ -15,6 +15,7 @@ import oliverdev.com.blogradio.R;
  */
 @EActivity(R.layout.activity_main)
 public class MainActivity extends BaseActivity {
+    public static String TAG = MainActivity.class.getSimpleName();
 
     @ViewById(R.id.toolBar)
     Toolbar mToolbar;
@@ -23,7 +24,6 @@ public class MainActivity extends BaseActivity {
     protected void initViews() {
         setSupportActionBar(mToolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        mToolbar.setTitle("Ahihi");
     }
 
     @Override
@@ -35,7 +35,7 @@ public class MainActivity extends BaseActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case android.R.id.home:
-                Log.d("AHIHI", "Ahihi");
+                Log.d(TAG, "Press home button");
         }
         return super.onOptionsItemSelected(item);
 
