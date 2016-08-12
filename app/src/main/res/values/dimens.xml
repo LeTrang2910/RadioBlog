@@ -22,11 +22,25 @@
     <!--navigation view-->
     <dimen name="textview.textsize.textview_title">20sp</dimen>
     <dimen name="textview.textsize.textview_counter">18sp</dimen>
-    <dimen name="relativelayout.height.header_navigation_view">60dp</dimen>
+    <dimen name="relativelayout.height.header_navigation_view">70dp</dimen>
     <dimen name="textview.textsize.show_your_feels_navigationview">14sp</dimen>
     <dimen name="textview.top.margin.blog_radio_title_navigation_view">10dp</dimen>
     <dimen name="textview.padding.blog_radio_title_navigation_view">5dp</dimen>
     <dimen name="textview.textsize.blog_radio_title_navigation_view">17sp</dimen>
     <dimen name="textview.padding.left.show_your_feels_navigationview">5dp</dimen>
     <dimen name="navigationviewitem.textsize">14sp</dimen>
+    <dimen name="textview.textsize.title">16sp</dimen>
+    // recycler navigation view
+    <dimen name="textview.margin.top.category">8dp</dimen>
+    <dimen name="textview.padding.category">10dp</dimen>
+    <dimen name="textview.padding.icon_image">10dp</dimen>
+    <dimen name="imageview.padding.icon_image">10dp</dimen>
+    <dimen name="imageview.margin.start.icon_image">10dp</dimen>
+    <dimen name="textview.margin.left.category">10dp</dimen>
+    <dimen name="textview.padding.title">10dp</dimen>
+    <dimen name="textview.mardin.left.title">10dp</dimen>
+    <dimen name="textview.textsize.counter">16sp</dimen>
+    <dimen name="textview.margin.right.counter">10dp</dimen>
+    <dimen name="textview.padding.counter">10dp</dimen>
+    <dimen name="navigation.height.header">160dp</dimen>
 </resources>

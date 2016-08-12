@@ -9,7 +9,7 @@
     <color name="linearLayout.background.splash_screen">#66ffffff</color>
     <color name="textview.color.splash_screen">#434343</color>
     <!--header navigation listview-->
-    <color name="framelayout.background.custom_header_navigation_view">#59513328</color>
+    <color name="framelayout.background.header_recyclerview_navigation">#59513328</color>
     <color name="text.shadow.color.blog_radio_title_navigation">#f01111</color>
 
 </resources>

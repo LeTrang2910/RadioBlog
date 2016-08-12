@@ -21,7 +21,6 @@
             android:text="@string/textview.text.blog_radio"
             android:textSize="@dimen/textview.textsize.blog_radio_title"
             android:textStyle="bold" />
-
         <TextView
             android:id="@+id/tvShowYourFeelsTitle"
             android:layout_width="match_parent"

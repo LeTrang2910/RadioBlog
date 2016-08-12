@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/textview.text.category"
+    android:textStyle="bold"
+    android:layout_marginTop="@dimen/textview.margin.top.category"
+    android:textColor="@android:color/white"
+    android:padding="@dimen/textview.padding.category"
+    android:textSize="@dimen/textview.textsize.title"
+    android:layout_marginLeft="@dimen/textview.margin.left.category"
+    android:id="@+id/TvTitleCategory"
+    xmlns:android="http://schemas.android.com/apk/res/android" />
