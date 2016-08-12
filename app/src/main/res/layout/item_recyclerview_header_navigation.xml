@@ -13,7 +13,7 @@
         android:background="@color/framelayout.background.header_recyclerview_navigation">
 
         <TextView
-            android:id="@+id/TvBlogRadio"
+            android:id="@+id/tvBlogRadio"
             style="@style/textviewBlogRadioTitleStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -25,7 +25,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/TvBlogRadio"
+            android:layout_below="@+id/tvBlogRadio"
             android:layout_marginEnd="@dimen/textview.padding.left.show_your_feels_navigationview"
             android:layout_marginRight="@dimen/textview.padding.left.show_your_feels_navigationview"
             android:gravity="center_vertical|end"
@@ -33,8 +33,6 @@
             android:text="@string/textview.text.show_your_feels"
             android:textColor="@android:color/white"
             android:textSize="@dimen/textview.textsize.show_your_feels_navigationview"
-            android:textStyle="italic"
-
-            />
+            android:textStyle="italic" />
     </RelativeLayout>
 </RelativeLayout>

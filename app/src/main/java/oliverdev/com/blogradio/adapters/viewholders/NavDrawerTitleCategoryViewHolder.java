@@ -12,7 +12,7 @@ public class NavDrawerTitleCategoryViewHolder extends RecyclerView.ViewHolder {
 
     public NavDrawerTitleCategoryViewHolder(View itemView) {
         super(itemView);
-        mTvTitleCategory = (TextView) itemView.findViewById(R.id.TvTitleCategory);
+        mTvTitleCategory = (TextView) itemView.findViewById(R.id.tvTitleCategory);
     }
 
     public void bind(NavDrawerTitleCategoryItem navDrawerTitleCategoryItem) {

@@ -16,7 +16,7 @@ public class NavDrawerViewHolder extends RecyclerView.ViewHolder {
 
     public NavDrawerViewHolder(View itemView) {
         super(itemView);
-        mTvTitle = (TextView) itemView.findViewById(R.id.TvTitle);
+        mTvTitle = (TextView) itemView.findViewById(R.id.tvTitle);
         mTvTitleCounter = (TextView) itemView.findViewById(R.id.tvCounter);
         mImgIcon = (ImageView) itemView.findViewById(R.id.imgIcon);
 
