@@ -27,7 +27,7 @@
         android:textSize="@dimen/textview.textsize.title" />
 
     <TextView
-        android:id="@+id/tvCounterItem"
+        android:id="@+id/tvCounter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
