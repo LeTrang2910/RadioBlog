@@ -10,17 +10,18 @@ import oliverdev.com.blogradio.models.NavDrawerItem;
 
 public class NavDrawerViewHolder extends RecyclerView.ViewHolder {
 
-    ImageView mImgIcon;
-    TextView mTvTitle;
-    TextView mTvTitleCounter;
+    private final ImageView mImgIcon;
+    private final TextView mTvTitle;
+    private final TextView mTvTitleCounter;
 
     public NavDrawerViewHolder(View itemView) {
         super(itemView);
         mTvTitle = (TextView) itemView.findViewById(R.id.TvTitle);
-        mTvTitleCounter = (TextView) itemView.findViewById(R.id.TvCounter);
+        mTvTitleCounter = (TextView) itemView.findViewById(R.id.tvCounter);
         mImgIcon = (ImageView) itemView.findViewById(R.id.imgIcon);
 
     }
+
     public void bind(NavDrawerItem item) {
         mTvTitle.setText(item.getTitle());
         mImgIcon.setImageResource(item.getIcon());

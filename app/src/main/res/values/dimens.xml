@@ -43,4 +43,5 @@
     <dimen name="textview.margin.right.counter">10dp</dimen>
     <dimen name="textview.padding.counter">10dp</dimen>
     <dimen name="navigation.height.header">160dp</dimen>
+    <dimen name="textview.padding.right.show_your_feels">5dp</dimen>
 </resources>

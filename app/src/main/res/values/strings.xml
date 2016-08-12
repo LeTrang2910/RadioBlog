@@ -17,6 +17,7 @@
     <string name="navigationviewitem_style_font">MONOSCAPE</string>
     <string name="textview.text.category">Danh Mục</string>
     <string name="navmenu_image">image</string>
+    <string name="image.description.imageicon">icon on menu navigation</string>
     <!--array list category title -->
     <string-array name="nav_drawer_category_title">
         <item>Danh mục </item>
@@ -60,9 +61,9 @@
         <item>@drawable/ic_video</item>
     </integer-array>
     <!--add on-->
-    <integer-array name ="nav_drawer_add_on_icons">
-    <item>@drawable/ic_note</item>
-    <item>@drawable/ic_offline_radio</item>
+    <integer-array name="nav_drawer_add_on_icons">
+        <item>@drawable/ic_note</item>
+        <item>@drawable/ic_offline_radio</item>
     </integer-array>
 
 </resources>

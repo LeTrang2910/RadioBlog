@@ -1,7 +1,6 @@
 package oliverdev.com.blogradio.activities;
 
 import android.content.res.TypedArray;
-import android.os.Bundle;
 import android.support.annotation.StringRes;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -35,7 +34,7 @@ public class MainActivity extends BaseActivity {
     Toolbar mToolbar;
     @ViewById(R.id.recyclerView)
     RecyclerView mRecyclerView;
-    @ViewById(R.id.drawer_layout)
+    @ViewById(R.id.drawerLayout)
     DrawerLayout mDrawerLayout;
     //action bar toggle
     ActionBarDrawerToggle mActionBarDrawerToggle;
@@ -62,7 +61,6 @@ public class MainActivity extends BaseActivity {
 
     @Override
     protected void initViews() {
-        Bundle savedInstanceState = null;
         setSupportActionBar(mToolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(this);
@@ -86,7 +84,6 @@ public class MainActivity extends BaseActivity {
     }
 
     /**
-     *
      * @return list items object on navigation view
      */
     private List<Object> getListItems() {
@@ -104,7 +101,9 @@ public class MainActivity extends BaseActivity {
         mNavMenuMyFoldesIcons = getResources()
                 .obtainTypedArray(R.array.nav_drawer_my_folder_icons);
         mAObjects.add(getString(R.string.navmenu_image));
-        for (int i = 0; i < mNavMenuCategoryTitles.length; i++) {
+
+        int tmpTitleLength = mNavMenuCategoryTitles.length;
+        for (int i = 0; i < tmpTitleLength; i++) {
             mAObjects.add(new NavDrawerTitleCategoryItem(mNavMenuCategoryTitles[i]));
             switch (i) {
                 case CATEGORY_ITEM:
@@ -140,12 +139,12 @@ public class MainActivity extends BaseActivity {
     }
 
     /**
-     *
      * @param strings set of titles
-     * @param arrays set of id-icons
+     * @param arrays  set of id-icons
      */
     private void setItemForType(String[] strings, TypedArray arrays) {
-        for (int i = 0; i < strings.length; i++) {
+        int tmpTitleLength = strings.length;
+        for (int i = 0; i < tmpTitleLength; i++) {
             mAObjects.add(new NavDrawerItem(strings[i], arrays.getResourceId(i, -1)));
         }
     }

@@ -8,7 +8,7 @@ import oliverdev.com.blogradio.R;
 import oliverdev.com.blogradio.models.NavDrawerTitleCategoryItem;
 
 public class NavDrawerTitleCategoryViewHolder extends RecyclerView.ViewHolder {
-    TextView mTvTitleCategory;
+    private final TextView mTvTitleCategory;
 
     public NavDrawerTitleCategoryViewHolder(View itemView) {
         super(itemView);

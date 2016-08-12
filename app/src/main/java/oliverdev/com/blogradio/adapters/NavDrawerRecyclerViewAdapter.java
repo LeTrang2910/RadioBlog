@@ -16,10 +16,11 @@ import oliverdev.com.blogradio.models.NavDrawerItem;
 import oliverdev.com.blogradio.models.NavDrawerTitleCategoryItem;
 
 public class NavDrawerRecyclerViewAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
-    private List<Object> mItems;
-    protected Context mContext;
+
+    private final List<Object> mItems;
+    protected final Context mContext;
     private static final int NAV_IMAGE_HEADER = 0;
-    private static final int NAV_ITEM_INFOMATION = 1;
+    private static final int NAV_ITEM_INFORMATION = 1;
     private static final int NAV_CATEGORY_TITLE = 2;
 
     public NavDrawerRecyclerViewAdapter(List<Object> mItems, Context mContext) {
@@ -30,13 +31,12 @@ public class NavDrawerRecyclerViewAdapter extends RecyclerView.Adapter<RecyclerV
     @Override
     public int getItemViewType(int position) {
         if (mItems.get(position) instanceof NavDrawerItem) {
-            return NAV_ITEM_INFOMATION;
+            return NAV_ITEM_INFORMATION;
         } else if (mItems.get(position) instanceof String) {
             return NAV_IMAGE_HEADER;
         } else if (mItems.get(position) instanceof NavDrawerTitleCategoryItem) {
             return NAV_CATEGORY_TITLE;
         }
-//
         return -1;
     }
 
@@ -50,7 +50,7 @@ public class NavDrawerRecyclerViewAdapter extends RecyclerView.Adapter<RecyclerV
                 View navHeaderItem = inflater.inflate(R.layout.item_recyclerview_header_navigation, parent, false);
                 viewHolder = new NavDrawerHeaderViewHolder(navHeaderItem);
                 break;
-            case NAV_ITEM_INFOMATION:
+            case NAV_ITEM_INFORMATION:
                 View navItemInfomation = inflater.inflate(R.layout.item_recyclerview_navigation, parent, false);
                 viewHolder = new NavDrawerViewHolder(navItemInfomation);
                 break;
@@ -66,22 +66,18 @@ public class NavDrawerRecyclerViewAdapter extends RecyclerView.Adapter<RecyclerV
     @Override
     public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
         switch (holder.getItemViewType()) {
-            case NAV_IMAGE_HEADER:
-                NavDrawerHeaderViewHolder navDrawerHeaderViewHolder = (NavDrawerHeaderViewHolder) holder;
-                configViewHolderNavDrawerHeader(navDrawerHeaderViewHolder);
-                break;
-            case NAV_ITEM_INFOMATION:
+            case NAV_ITEM_INFORMATION:
                 NavDrawerViewHolder navDrawerViewHolder = (NavDrawerViewHolder) holder;
                 configViewHolderNavDrawer(navDrawerViewHolder, position);
                 break;
             case NAV_CATEGORY_TITLE:
-                NavDrawerTitleCategoryViewHolder navDrawerTitleCategoryViewHolder =(NavDrawerTitleCategoryViewHolder)holder;
+                NavDrawerTitleCategoryViewHolder navDrawerTitleCategoryViewHolder = (NavDrawerTitleCategoryViewHolder) holder;
                 configViewHolderNavDrawerTitleCategory(navDrawerTitleCategoryViewHolder, position);
                 break;
         }
     }
 
-    private void configViewHolderNavDrawerTitleCategory(NavDrawerTitleCategoryViewHolder navDrawerTitleCategoryViewHolder , int position) {
+    private void configViewHolderNavDrawerTitleCategory(NavDrawerTitleCategoryViewHolder navDrawerTitleCategoryViewHolder, int position) {
         NavDrawerTitleCategoryItem navDrawerTitleCategoryItem = (NavDrawerTitleCategoryItem) mItems.get(position);
         if (navDrawerTitleCategoryItem != null) {
             navDrawerTitleCategoryViewHolder.bind(navDrawerTitleCategoryItem);
@@ -93,9 +89,6 @@ public class NavDrawerRecyclerViewAdapter extends RecyclerView.Adapter<RecyclerV
         if (navDrawerItem != null) {
             navDrawerViewHolder.bind(navDrawerItem);
         }
-    }
-
-    private void configViewHolderNavDrawerHeader(NavDrawerHeaderViewHolder navDrawerHeaderViewHolder) {
     }
 
     @Override

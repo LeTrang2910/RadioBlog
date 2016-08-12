@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/drawer_layout"
+    android:id="@+id/drawerLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
     <LinearLayout
-        android:background="@drawable/bg_background_new_blog_radio_fragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@drawable/bg_background_new_blog_radio_fragment"
         android:orientation="vertical">
-         <include layout="@layout/include_toolbar"/>
+
+        <include layout="@layout/include_toolbar" />
+
         <FrameLayout
             android:id="@+id/container"
             android:layout_width="match_parent"
@@ -22,7 +25,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="start"
-        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-        android:background="@drawable/bg_category_navigation_view" />
+        android:background="@drawable/bg_category_navigation_view"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
 </android.support.v4.widget.DrawerLayout>
 

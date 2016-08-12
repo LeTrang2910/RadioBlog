@@ -1,31 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
-<ImageView
-    android:layout_marginLeft="@dimen/imageview.margin.start.icon_image"
-    android:padding="@dimen/imageview.padding.icon_image"
-    android:id="@+id/imgIcon"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:src="@drawable/ic_download"/>
-    <TextView
-        android:layout_toRightOf="@+id/imgIcon"
+    <ImageView
+        android:id="@+id/imgIcon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="@android:color/white"
+        android:layout_marginLeft="@dimen/imageview.margin.start.icon_image"
+        android:layout_marginStart="@dimen/imageview.margin.start.icon_image"
+        android:contentDescription="@string/image.description.imageicon"
+        android:padding="@dimen/imageview.padding.icon_image"
+        android:src="@drawable/ic_download" />
+
+    <TextView
+        android:id="@+id/TvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/textview.mardin.left.title"
+        android:layout_marginStart="@dimen/textview.mardin.left.title"
+        android:layout_toEndOf="@+id/imgIcon"
+        android:layout_toRightOf="@+id/imgIcon"
         android:padding="@dimen/textview.padding.title"
-        android:textSize="@dimen/textview.textsize.title"
-        android:id="@+id/TvTitle"/>
-    <TextView
-        android:id="@+id/TvCounter"
-        android:layout_marginRight="@dimen/textview.margin.right.counter"
-        android:padding="@dimen/textview.padding.counter"
-        android:textSize="@dimen/textview.textsize.counter"
         android:textColor="@android:color/white"
+        android:textSize="@dimen/textview.textsize.title" />
+
+    <TextView
+        android:id="@+id/tvCounterItem"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"/>
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout="@dimen/textview.margin.right.counter"
+        android:padding="@dimen/textview.padding.counter"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/textview.textsize.counter"
+        tools:ignore="RelativeOverlap" />
 </RelativeLayout>
