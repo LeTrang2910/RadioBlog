@@ -6,4 +6,63 @@
     <string name="textview_blog_radio_font">VietAPK.vn-RixLoveFool.ttf</string>
     <string name="textview_show_your_feels_font">VNF-FuturaRegular.ttf</string>
     <string name="textview_confession_font">VietAPK.vn-Alba.ttf</string>
+    <string name="textview.text.blog_radio_navigation">BLOG RADIO</string>
+    <!--drawer menu-->
+    <string name="drawerlayout_text_open">Open</string>
+    <string name="drawerlayout_text_close">Close</string>
+    <!--font in navigation view-->
+    <string name="toolbar_font">VietAPK.vn-RixLoveFool.ttf</string>
+    <!--"MONOSCAPE", "waltographUI.ttf"-->
+    <string name="navigationviewitem_font">VietAPK.vn-RixLoveFool.ttf</string>
+    <string name="navigationviewitem_style_font">MONOSCAPE</string>
+    <string name="textview.text.category">Danh Mục</string>
+    <string name="navmenu_image">image</string>
+    <!--array list category title -->
+    <string-array name="nav_drawer_category_title">
+        <item>Danh mục </item>
+        <item>Của Tôi</item>
+        <item>Mở Rộng</item>
+    </string-array>
+    <!--array list category -->
+    <string-array name="nav_drawer_category_items">
+        <item>Nghe gì hôm nay?</item>
+        <item>Blog Radio</item>
+        <item>Blog Tâm Sự </item>
+        <item>Khoảng Lặng Cuộc Sống </item>
+        <item>Truyện Hay</item>
+    </string-array>
+    <!--array list my title -->
+    <string-array name="nav_drawer_my_folder_items">
+        <item>Radio Mới</item>
+        <item>Yêu Thích</item>
+        <item>Tải Xuống</item>
+        <item>Video</item>
+    </string-array>
+    <!--array list add-on -->
+    <string-array name="nav_drawer_add_on_items">
+        <item>Ghi Chú</item>
+        <item>Radio Offline</item>
+    </string-array>
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <integer-array name="nav_drawer_category_icons">
+        <item>@drawable/ic_one</item>
+        <item>@drawable/ic_two</item>
+        <item>@drawable/ic_three</item>
+        <item>@drawable/ic_four</item>
+        <item>@drawable/ic_five</item>
+        <!--my folders-->
+    </integer-array>
+    <integer-array name="nav_drawer_my_folder_icons">
+        <item>@drawable/ic_new_blog_radio</item>
+        <item>@drawable/ic_favorite</item>
+        <item>@drawable/ic_download</item>
+        <item>@drawable/ic_video</item>
+    </integer-array>
+    <!--add on-->
+    <integer-array name ="nav_drawer_add_on_icons">
+    <item>@drawable/ic_note</item>
+    <item>@drawable/ic_offline_radio</item>
+    </integer-array>
+
 </resources>
