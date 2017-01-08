@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/navigation.height.header"
+    android:background="@drawable/bg_header_navigation"
+    android:fitsSystemWindows="@bool/fitsSystemWindows"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/relativelayout.height.header_navigation_view"
+        android:layout_alignParentBottom="true"
+        android:background="@color/framelayout.background.header_recyclerview_navigation">
+
+        <TextView
+            android:id="@+id/tvBlogRadio"
+            style="@style/textviewBlogRadioTitleStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/textview.text.blog_radio_navigation"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvBlogRadio"
+            android:layout_marginEnd="@dimen/textview.padding.left.show_your_feels_navigationview"
+            android:layout_marginRight="@dimen/textview.padding.left.show_your_feels_navigationview"
+            android:gravity="center_vertical|end"
+            android:padding="@dimen/textview.padding.top.show_your_feels"
+            android:text="@string/textview.text.show_your_feels"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/textview.textsize.show_your_feels_navigationview"
+            android:textStyle="italic" />
+    </RelativeLayout>
+</RelativeLayout>

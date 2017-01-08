@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tvTitleCategory"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/textview.margin.left.category"
+    android:layout_marginStart="@dimen/textview.margin.left.category"
+    android:layout_marginTop="@dimen/textview.margin.top.category"
+    android:padding="@dimen/textview.padding.category"
+    android:text="@string/textview.text.category"
+    android:textColor="@android:color/white"
+    android:textSize="@dimen/textview.textsize.title"
+    android:textStyle="bold" />
